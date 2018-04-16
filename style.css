@@ -5,9 +5,15 @@ body {
 h1 {
     color: black;
     margin-left: 20px;
+    text-align: center;
 }
 
-ul {
+h2 {
+    text-align: center;
+}
+
+
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -15,11 +21,11 @@ ul {
     background-color: #333;
 }
 
-li {
+.navbar li {
     float: left;
 }
 
-li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -28,6 +34,25 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.navbar li a:hover {
     background-color: #111;
+}
+
+.list {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.paragraphs {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    display: block;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333
 }
